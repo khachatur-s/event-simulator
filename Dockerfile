@@ -1,10 +1,7 @@
 FROM python:latest
-
+LABEL org.opencontainers.image.source="https://github.com/khachatur-s/event-simulator"
 WORKDIR /usr/src/app
 
-#COPY requirements.txt ./
-#RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
+COPY event-simulator.py ./
 
 CMD [ "python", "./event-simulator.py" ]
