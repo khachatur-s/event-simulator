@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    app: event-listener
-  name: event-listener
+    app: event-simulator
+  name: event-simulator
 spec:
   containers:
   - image: ghcr.io/khachatur-s/event-simulator:latest
-    name: event-listener
+    name: event-simulator
