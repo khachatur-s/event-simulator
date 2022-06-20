@@ -9,6 +9,3 @@ spec:
   containers:
   - image: event-listener
     name: event-listener
-  dnsPolicy: ClusterFirst
-  restartPolicy: Always
-status: {}
