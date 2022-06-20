@@ -7,5 +7,5 @@ metadata:
   name: event-listener
 spec:
   containers:
-  - image: event-listener
+  - image: ghcr.io/khachatur-s/event-simulator:latest
     name: event-listener
